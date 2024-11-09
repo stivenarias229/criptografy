@@ -6,7 +6,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 /**
  *
- * @author Stiven Arias
+ * @author Stiven Arias,s Hansel Trujillo, Julián Aranda
  */
 public class Main {
     public static void main(String[] args) {

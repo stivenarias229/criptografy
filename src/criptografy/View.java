@@ -9,7 +9,7 @@ import javax.swing.event.DocumentListener;
 
 /**
  *
- * @author Stiven Arias
+ * @author Stiven Arias, Hansel Trujillo, Julián Aranda
  */
 public class View extends javax.swing.JFrame {
 
@@ -82,7 +82,7 @@ public class View extends javax.swing.JFrame {
 
         title.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
         title.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        title.setText("Cifrado de textos");
+        title.setText("Cifrar textos");
 
         inputUser.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
 
@@ -303,8 +303,6 @@ public class View extends javax.swing.JFrame {
             
             encryptUser.setText(encryptedUserText);
             encryptPassword.setText(encryptedPasswordText);
-            System.out.println("Texto usuario encriptado: " + encryptedUserText);
-            System.out.println("Texto password encriptado: " + encryptedPasswordText);
             
             
             // Desencriptar el texto
@@ -313,8 +311,6 @@ public class View extends javax.swing.JFrame {
             
             decryptUser.setText(decryptedUserText);
             decryptPassword.setText(decryptedPasswordText);
-            System.out.println("Texto usuario desencriptado: " + decryptedUserText);
-            System.out.println("Texto password desencriptado: " + decryptedPasswordText); 
         } catch (Exception e) {
             e.printStackTrace();
         }
